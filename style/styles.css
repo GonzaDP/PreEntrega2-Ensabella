@@ -47,18 +47,15 @@ header{
 }
 
 .container-fluid{
-
     margin-top: -0.5rem;
 }
 
 .navbar-toggler{
-
     color: rgb(81, 44, 168);
 }
 
 
 .navbar-nav{
-
     list-style: none ;
     display: flex;
     text-decoration: none;      
@@ -199,8 +196,7 @@ footer{
 @media (max-width: 670px){
     .sectionDiscos{
         flex-direction: column;
-    }
-    
+    }  
 }
 
 .listSour{
@@ -212,8 +208,7 @@ footer{
 @media (max-width: 765px){
     .listSour{
         margin-right: 1rem;
-    }
-    
+    }  
 }
 
 .listGuts{
@@ -337,19 +332,32 @@ flex-direction: column;
 
 
 .formFormarParte{
-    height: 35rem;
-    width: 60rem;
+    width: 80%;
     display: flex;
     margin: 1rem;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-top: -1rem;
+    margin-bottom: 4rem;
 }
+
+
 
 .columnasForm{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 1rem;
+    width: 100%;
+}
+
+@media (max-width: 985px){
+    .formFormarParte{
+        flex-direction: column;
+    }
+    .columnasForm{
+        margin: 0rem;
+    }
 }
 
 .labels{
@@ -363,7 +371,7 @@ flex-direction: column;
 
 .inputs{
     height: 2rem;
-    width: 25rem;
+    width: 100%;
     margin: 0.3rem;
     border-radius: 1rem;
     border: 0rem;
@@ -375,7 +383,7 @@ flex-direction: column;
 
 
 .mensaje{
-    width: 25rem;
+    width: 100%;
     height: 8rem;
     margin: 0.3rem;
     border-radius: 1rem;
@@ -396,5 +404,6 @@ flex-direction: column;
     color: rgb(81, 44, 168);
     background-color: black;
     font-size: 1rem;
+    margin-bottom: 2.88rem;
 }
 
