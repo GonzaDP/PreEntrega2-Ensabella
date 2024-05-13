@@ -1,0 +1,17 @@
+footer{
+    width: 100%;
+    height: 4.375rem;
+    background-color: $darkColor;
+    display: inline-flex ;   
+    justify-content: right;
+    align-items: center;
+    position: sticky;
+    bottom: 0;
+    padding: 0.5rem;
+}
+
+.footerIcons{
+    @include imagenes(2rem, 2rem, fit);
+    background-color: $mainColor;
+    margin: 0.5rem;
+}

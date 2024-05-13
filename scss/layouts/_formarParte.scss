@@ -1,0 +1,58 @@
+.formFormarParte{
+    @include flex(flex, center,"","");
+    width: 80%;
+    margin: 1rem;
+    margin-top: -1rem;
+    margin-bottom: 4rem;
+}
+
+.columnasForm{
+    @include flex(flex, center, center,column);
+    margin: 1rem;
+    width: 100%;
+}
+
+.labels{
+    color: $darkColor;
+    width: 15rem;
+    height: 1.5rem;
+    margin: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.inputs{
+    height: 2rem;
+    width: 80%;
+    margin: 0.3rem;
+    border-radius: 1rem;
+    border: 0rem;
+    text-align: center ;
+    color: $mainColor;
+    background-color: $darkColor;
+    font-size: 1rem;
+}
+
+.mensaje{
+    width: 80%;
+    height: 8rem;
+    margin: 0.3rem;
+    border-radius: 1rem;
+    border: 0rem;
+    color: $mainColor;
+    background-color: $darkColor;
+    font-size: 1rem;
+    resize: none;
+    padding: 0.5rem;
+}
+
+.botonEnviar{
+    width: 10rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border: 0rem;
+    color: $mainColor;
+    background-color: $darkColor;
+    font-size: 1rem;
+    margin-bottom: 2.88rem;
+}

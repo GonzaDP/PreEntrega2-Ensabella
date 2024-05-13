@@ -1,0 +1,449 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.linkAIndex {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logoMain {
+  width: 4.375rem;
+  height: 4.375rem;
+  object-fit: fit;
+}
+
+.oliviaRodrigo {
+  color: rgb(102, 51, 153);
+  margin-top: 1rem;
+  margin-left: 0.625rem;
+  font-size: 1.25rem;
+}
+
+.navbar {
+  height: 4.375rem;
+  display: flex;
+  margin-top: 0.25rem;
+}
+
+.container-fluid {
+  margin-top: -0.5rem;
+}
+
+.navbar-toggler {
+  color: rgb(102, 51, 153);
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  text-decoration: none;
+}
+
+.itemsNav {
+  display: flex;
+  padding: 0.8rem;
+  background-color: rgb(26, 13, 38);
+  color: rgb(102, 51, 153);
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.25rem;
+  border-radius: 2rem;
+}
+.itemsNav:hover {
+  background-color: rgb(102, 51, 153);
+  color: rgb(26, 13, 38);
+  transition-duration: 0.4s;
+}
+
+footer {
+  width: 100%;
+  height: 4.375rem;
+  background-color: rgb(26, 13, 38);
+  display: inline-flex;
+  justify-content: right;
+  align-items: center;
+  position: sticky;
+  bottom: 0;
+  padding: 0.5rem;
+}
+
+.footerIcons {
+  width: 2rem;
+  height: 2rem;
+  object-fit: fit;
+  background-color: rgb(102, 51, 153);
+  margin: 0.5rem;
+}
+
+header {
+  width: 100%;
+  height: 4.375rem;
+  display: inline-flex;
+  position: sticky;
+  top: 0;
+  background-color: rgb(26, 13, 38);
+  justify-content: space-between;
+  z-index: 2;
+}
+
+main {
+  display: grid;
+  background-color: rgb(102, 51, 153);
+  margin-top: -0.4rem;
+}
+
+#carouselExampleAutoplaying {
+  width: 100%;
+}
+
+.carousel-inner,
+.carousel-item {
+  height: 30rem;
+  margin-top: 1rem;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cuerpoMain {
+  margin-top: 2rem;
+  align-items: center;
+  text-align: center;
+  color: rgb(26, 13, 38);
+}
+
+.quienEs {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+.biografia {
+  width: auto;
+  height: auto;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 3rem;
+}
+
+.escucharMas {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: bolder;
+}
+
+.linkTD {
+  display: flex;
+  justify-content: "";
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.cajaTD {
+  display: flex;
+  justify-content: "";
+  align-items: center;
+  flex-direction: "";
+  width: 80%;
+  height: 100%;
+  color: rgb(102, 51, 153);
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.imgTD {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.click {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 0.8s;
+  font-size: 2rem;
+}
+.click:hover {
+  opacity: 0.8;
+  background-color: rgb(26, 13, 38);
+}
+
+.tituloTD {
+  color: rgb(26, 13, 38);
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.mainPages {
+  display: flex;
+  justify-content: "";
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(102, 51, 153);
+  margin-top: -0.4rem;
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
+}
+
+.tituloPages {
+  font-size: 2.7rem;
+  color: rgb(26, 13, 38);
+  margin-bottom: 1rem;
+  font-weight: bolder;
+}
+
+.sectionDiscos {
+  display: flex;
+  justify-content: center;
+  align-items: "";
+  flex-direction: "";
+  text-align: center;
+  margin-left: -1rem;
+}
+
+.listSour {
+  margin: 1rem;
+  margin-right: 7rem;
+  color: rgb(26, 13, 38);
+}
+
+.listGuts {
+  margin: 1rem;
+  color: rgb(26, 13, 38);
+}
+
+.titulosDiscos {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.itemsSongs {
+  width: 15rem;
+  list-style: none;
+  background-color: rgb(26, 13, 38);
+}
+.itemsSongs:hover {
+  scale: 1.1;
+  transition: 0.5s;
+  box-shadow: 0rem 0rem 1rem rgb(26, 13, 38);
+}
+
+.linkToSongs {
+  display: flex;
+  justify-content: center;
+  align-items: "";
+  flex-direction: "";
+  padding: 0.5rem;
+  margin-top: 0.1rem;
+  text-decoration: none;
+  color: rgb(102, 51, 153);
+}
+
+.formFormarParte {
+  display: flex;
+  justify-content: center;
+  align-items: "";
+  flex-direction: "";
+  width: 80%;
+  margin: 1rem;
+  margin-top: -1rem;
+  margin-bottom: 4rem;
+}
+
+.columnasForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem;
+  width: 100%;
+}
+
+.labels {
+  color: rgb(26, 13, 38);
+  width: 15rem;
+  height: 1.5rem;
+  margin: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.inputs {
+  height: 2rem;
+  width: 80%;
+  margin: 0.3rem;
+  border-radius: 1rem;
+  border: 0rem;
+  text-align: center;
+  color: rgb(102, 51, 153);
+  background-color: rgb(26, 13, 38);
+  font-size: 1rem;
+}
+
+.mensaje {
+  width: 80%;
+  height: 8rem;
+  margin: 0.3rem;
+  border-radius: 1rem;
+  border: 0rem;
+  color: rgb(102, 51, 153);
+  background-color: rgb(26, 13, 38);
+  font-size: 1rem;
+  resize: none;
+  padding: 0.5rem;
+}
+
+.botonEnviar {
+  width: 10rem;
+  height: 2rem;
+  border-radius: 1rem;
+  border: 0rem;
+  color: rgb(102, 51, 153);
+  background-color: rgb(26, 13, 38);
+  font-size: 1rem;
+  margin-bottom: 2.88rem;
+}
+
+.nosotros {
+  color: rgb(26, 13, 38);
+  width: auto;
+  height: auto;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 3rem;
+}
+
+.nosotrosBanner {
+  display: flex;
+  justify-content: "";
+  align-items: center;
+  flex-direction: "";
+  width: 80rem;
+  height: 40rem;
+  color: rgb(102, 51, 153);
+}
+
+.imgNosotros {
+  width: 80rem;
+  height: 40rem;
+  object-fit: cover;
+}
+
+.containerRopa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: "";
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.cardTienda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 25rem;
+  height: 25rem;
+  background-color: rgb(26, 13, 38);
+  margin: 1.5rem;
+  color: rgb(102, 51, 153);
+  position: relative;
+}
+.cardTienda:hover {
+  scale: 1.1;
+  transition: 0.5s;
+  box-shadow: 0rem 0rem 2rem rgb(26, 13, 38);
+}
+.cardTienda :hover {
+  opacity: 0.9;
+}
+
+.imgTienda {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.precio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(26, 13, 38);
+  opacity: 0;
+  transition: 0.8s;
+  font-size: 2rem;
+}
+
+.pPrecio {
+  margin-top: 1.5rem;
+}
+
+.descripcionCard {
+  display: flex;
+  justify-content: "";
+  align-items: "";
+  flex-direction: column;
+  padding: 1rem 0.1rem 0.1rem 0.1rem;
+}
+
+@media (max-width: 400px) {
+  .oliviaRodrigo {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 670px) {
+  .sectionDiscos {
+    flex-direction: column;
+  }
+}
+@media (max-width: 765px) {
+  .listSour {
+    margin-right: 1rem;
+  }
+}
+@media (max-width: 985px) {
+  .formFormarParte {
+    flex-direction: column;
+  }
+  .columnasForm {
+    margin: 0rem;
+  }
+  .mensaje {
+    width: 100%;
+  }
+}
+@media (max-width: 550px) {
+  .cardTienda {
+    width: 20rem;
+    height: 20rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,22 @@
+.nosotros{
+    color: $darkColor;
+    width: auto;    
+    height: auto;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+}
+
+.nosotrosBanner{
+    @include flex(flex, "", center,"");
+    width: 80rem;
+    height: 40rem;
+    color: $mainColor; 
+}
+
+.imgNosotros{
+    @include imagenes(80rem, 40rem , cover)
+}

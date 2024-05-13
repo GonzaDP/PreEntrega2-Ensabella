@@ -1,0 +1,58 @@
+.mainPages{
+    @include flex(flex,"", center,column);
+    background-color: $mainColor;
+    margin-top: -0.4rem;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+.tituloPages{
+    font-size: 2.7rem;
+    color: $darkColor;
+    margin-bottom: 1rem;
+    font-weight: bolder;
+}
+
+.sectionDiscos{
+    @include flex(flex, center,"","");
+    text-align: center;
+    margin-left: -1rem;
+}
+
+.listSour{
+    margin: 1rem;
+    margin-right: 7rem;
+    color: $darkColor;
+}
+
+.listGuts{
+    margin: 1rem;
+    color: $darkColor;
+}
+
+.titulosDiscos{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.itemsSongs{
+    width: 15rem;
+    list-style: none;
+    background-color: $darkColor;
+
+    &:hover{
+        scale: 1.1;
+        transition: 0.5s;
+        box-shadow: 0rem 0rem 1rem $lightColor;
+    } 
+}
+
+.linkToSongs{
+    @include flex(flex, center,"","");
+    padding: 0.5rem;
+    margin-top: 0.1rem;
+    text-decoration: none;
+    color: $mainColor;
+}

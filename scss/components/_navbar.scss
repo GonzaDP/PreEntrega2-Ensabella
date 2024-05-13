@@ -1,0 +1,37 @@
+.navbar{
+    height: 4.375rem;
+    display: flex ;
+    margin-top: 0.25rem ;
+
+}
+
+.container-fluid{
+    margin-top: -0.5rem;
+}
+
+.navbar-toggler{
+    color: $mainColor;
+}
+
+.navbar-nav{
+    list-style: none ;
+    display: flex;
+    text-decoration: none;      
+}
+
+.itemsNav{
+    display: flex;
+    padding: 0.8rem;
+    background-color: $darkColor;
+    color: $mainColor;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.25rem;
+    border-radius: 2rem;
+
+    &:hover{
+        background-color: $mainColor;
+        color: $darkColor;
+        transition-duration: 0.4s;
+    }
+}

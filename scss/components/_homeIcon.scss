@@ -1,0 +1,16 @@
+.linkAIndex{ 
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logoMain{ 
+    @include imagenes(4.375rem, 4.375rem, fit);
+}
+
+.oliviaRodrigo{
+    color:  $mainColor;
+    margin-top: 1rem;
+    margin-left: 0.625rem;
+    font-size: 1.25rem;
+}

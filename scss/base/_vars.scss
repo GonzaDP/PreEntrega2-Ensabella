@@ -1,0 +1,16 @@
+$mainColor: rgb(102, 51, 153);
+$darkColor: rgb(26, 13, 38);
+$lightColor: rgb(26, 13, 38);
+
+@mixin imagenes($w, $h, $fit){
+    width: $w;
+    height: $h;
+    object-fit: $fit;
+}
+
+@mixin flex($display, $jContent, $aItems,$fDirection){
+    display: $display;
+    justify-content: $jContent;
+    align-items: $aItems;
+    flex-direction: $fDirection;
+}

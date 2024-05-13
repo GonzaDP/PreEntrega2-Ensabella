@@ -1,0 +1,36 @@
+@media  (max-width: 400px){
+    .oliviaRodrigo{
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 670px){
+    .sectionDiscos{
+        flex-direction: column;
+    }  
+}
+
+@media (max-width: 765px){
+    .listSour{
+        margin-right: 1rem;
+    }  
+}
+
+@media (max-width: 985px){
+    .formFormarParte{
+        flex-direction: column;
+    }
+    .columnasForm{
+        margin: 0rem;
+    }
+    .mensaje{
+        width: 100%;
+    }
+}
+
+@media (max-width: 550px){
+    .cardTienda{
+        width: 20rem;
+        height: 20rem;
+    }
+}
