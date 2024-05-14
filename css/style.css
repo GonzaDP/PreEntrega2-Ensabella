@@ -257,6 +257,7 @@ main {
   list-style: none;
   background-color: #1A0D26;
   transition: 1s;
+  border-radius: 2rem;
 }
 .itemsSongs:hover {
   scale: 1.1;
