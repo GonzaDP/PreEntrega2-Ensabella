@@ -15,18 +15,19 @@
 }
 
 .sectionDiscos{
-    @include flex(flex, center,"","");
-    text-align: center;
-    margin-left: -1rem;
+    @include flex(flex,"","","");
+    margin-left: -2rem;
 }
 
 .listSour{
+    @include flex(flex,"", center,column);
     margin: 1rem;
     margin-right: 7rem;
     color: $darkColor;
 }
 
 .listGuts{
+    @include flex(flex,"", center,column);
     margin: 1rem;
     color: $darkColor;
 }
@@ -38,21 +39,24 @@
 }
 
 .itemsSongs{
+    @include flex(flex, center, center,"");
     width: 15rem;
+    height: 3rem;
+    margin-bottom: 1rem;
     list-style: none;
     background-color: $darkColor;
+    transition: 1s;
 
     &:hover{
         scale: 1.1;
-        transition: 0.5s;
+        transition: 1s;
         box-shadow: 0rem 0rem 1rem $lightColor;
     } 
+
 }
 
 .linkToSongs{
-    @include flex(flex, center,"","");
-    padding: 0.5rem;
-    margin-top: 0.1rem;
+    margin-top: 0.9rem;
     text-decoration: none;
     color: $mainColor;
 }

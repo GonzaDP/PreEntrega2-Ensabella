@@ -12,20 +12,18 @@
     margin: 1.5rem;
     color: $mainColor; 
     position: relative;
+    transition: 1s;
+ 
 
     &:hover{
-        scale: 1.1;
-        transition: 0.5s;
+        transition: 1s;
         box-shadow: 0rem 0rem 2rem $lightColor;
-    }
-
-    :hover{
-        opacity: 0.9;
+        transform: scale(1.1) rotateY(180deg);
     }
 }
 
 .imgTienda{
-    @include imagenes(100%, 100%, cover);   
+    @include imagenes(100%, 100%, cover);  
 }
 
 .precio{
@@ -35,8 +33,12 @@
     height: 100%;
     background-color: $darkColor;
     opacity: 0;
-    transition: 0.8s;
     font-size: 2rem;
+
+    &:hover{
+        transform: rotateY(180deg);
+        opacity: 0.9;
+    }
 }
 
 .pPrecio{

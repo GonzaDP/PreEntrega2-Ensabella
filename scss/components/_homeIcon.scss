@@ -1,11 +1,10 @@
 .linkAIndex{ 
-    display: flex;
-    align-items: center;
+    @include flex(flex, center, center, wrap);
     text-decoration: none;
 }
 
 .logoMain{ 
-    @include imagenes(4.375rem, 4.375rem, fit);
+    @include imagenes(4.375rem, 4.375rem, "");
 }
 
 .oliviaRodrigo{

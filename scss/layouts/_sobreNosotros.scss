@@ -11,12 +11,10 @@
 }
 
 .nosotrosBanner{
-    @include flex(flex, "", center,"");
-    width: 80rem;
-    height: 40rem;
-    color: $mainColor; 
+    width: 100%;
+    height: 40%;
 }
 
 .imgNosotros{
-    @include imagenes(80rem, 40rem , cover)
+    @include imagenes(100%, 40% , cover)
 }
