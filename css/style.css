@@ -445,7 +445,8 @@ main {
     margin: 0rem;
   }
   .mensaje {
-    width: 100%;
+    width: 80%;
+    height: 14rem;
   }
 }
 @media (max-width: 550px) {
